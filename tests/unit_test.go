@@ -85,7 +85,7 @@ func TestGetAuthenticationToken_InvalidBody(t *testing.T) {
 
 func TestActivateAccount(t *testing.T) {
 	postBody, _ := json.Marshal(map[string]string{
-		"token": "KNHYFFIITTBMW23PAILK6V6HYU",
+		"token": "ILXDEAQ3DLCEUQ2X72NJTXCC2M",
 	})
 
 	responseBody := bytes.NewBuffer(postBody)
